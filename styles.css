@@ -1,0 +1,104 @@
+body {
+  background-image: url('image/bg.jpg');
+}
+
+#wrap{
+margin-left: 20%;
+margin-right: 20%;
+}
+
+.rightnav{
+background-color: pink;
+width:40px;
+height:40px;
+text-align: right;
+
+}
+
+.centernav{
+background-color: red;
+border:5px solid black;
+}
+.centernav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.centernav ul li,a {
+display: inline-block;
+color:white;
+padding: 0 0 0 20px;
+font-size: 14px;
+font-family: sans-serif;
+
+}
+.slider{
+background-color: white;
+}
+.column{
+display:inline-block;
+
+}
+/* work on getting the columns to align*/
+.col-1 {
+  margin-top: 5px;
+  background-color: white;
+  width: 29%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.column-titles {
+  vertical-align: top;
+}
+.skaters{
+  border: 2px solid red;
+  width: 100%;
+  height:500%;
+  margin: 5px auto;
+}
+
+.skaters-col1{
+  width:100%;
+  clear:both;
+  border: 2px solid black;
+  display: inline-block;
+}
+.skaters-col2 {
+  display: inline-block;
+}
+.lance {
+  display: inline-block;
+  border: 5px solid white;
+  width:24%;
+  height:49%;
+  background-image: url("image/sk8er-4.png");
+}
+
+.rodney{
+  background-image: url('image/sk8er-3.png');
+  background-repeat: repeat-y; 100%;
+  border: 5px solid white;
+  width:24%;
+  height:49%;
+  display: inline-block;
+}
+.steve{
+  display:inline-block;
+  background-image: url("image/sk8er-1.png");
+  width:100%;
+  height:49%;
+  border: 5px solid white;
+  overflow: auto;
+}
+.tommy{
+  background-image: url("image/sk8er-2.png");
+  display: inline-block;
+  width:24%;
+  height:100%;
+  border: 2px solid orange;
+}
+.footer {
+background-color: navy;
+}
