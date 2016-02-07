@@ -43,8 +43,9 @@ display:inline-block;
 /* work on getting the columns to align*/
 .col-1 {
   margin-top: 5px;
+  margin-bottom: 5px;
   background-color: white;
-  width: 29%;
+  width: 32%;
   display: inline-block;
   vertical-align: top;
 
@@ -52,78 +53,116 @@ display:inline-block;
 .column-titles {
   vertical-align: top;
 }
-.skaters{
-  width: 100%;
-  height:100%;
-  margin: 5px auto;
-  clear:both;
+
+.newBlock {
+	background-color:red;
+	color:white;
+	clear:both;
+	position:relative;
+	height:100%;
+  margin-top: 10px;
 }
 
-.skaters-col1{
-  width:100%;
-  width:100%;
-  clear:both;
-  border: 2px solid black;
-  display: inline-block;
-}
-.skaters-col2 {
-  display: inline-block;
-}
-.skaters-col3 {
-  display: inline-block;
-  height:100%;
-}
-.leftBlock{
-width:60%;
-height:100%;
-float:left;
+.leftBlockNew{
+    width:70%;
+    float:left;
+	display:inline;
 }
 
-
-.lance {
-  display: inline-block;
-  border: 5px solid white;
-  width:24%;
-  height:49%;
-  background-image: url("image/sk8er-4.png");
-  background-color: white;
-  background-repeat: repeat-y; 100%;
+.topRow{
+	width:100%;
+	height :200px;
 }
 
-.rodney{
-  background-image: url('image/sk8er-3.png');
-  background-repeat: repeat-y; 100%;
-  border: 5px solid white;
-  width:24%;
-  height:49%;
-  display: inline-block;
-  color: white;
-}
-.steve{
-  display:inline-block;
-  background-image: url("image/sk8er-1.png");
-  width:100%;
-  height:49%;
-  border: 5px solid white;
-  color: white;
+.topRowCol1{
+	width:50%;
+	height :200px;
+	background-image: url('image/sk8er-4.png');
+  background-size: 100% 100%;
+ float:left;
+	background-repeat: no-repeat;
+
 }
 
-.tommy{
-  background-image: url("image/sk8er-2.png");
-  display: inline-block;
-  width:24%;
-  height:100%;
-  border: 2px solid orange;
-  color: white;
+.topRowCol2{
+	width:50%;
+	height :200px;
+	background-image: url('image/sk8er-3.png');
+  background-size: 100% 100%;
+   float:right;
+  background-repeat: no-repeat;
+
 }
+
+.bottomRow{
+	height :200px;
+	background-image: url("image/sk8er-1.png");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.rightBlockNew{
+	width:30%;
+	float:right;
+	display:inline;
+	height :400px;
+	background:  url("image/sk8er-2.png");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.skatername{
+color:blue;
+font-size: 36px;
+font-family: sans-serif;
+text-align:right;
+}
+
 
 .boards {
+background-color: white;
+margin-top: 20px;
+width:100%;
+display: inline-block;
+}
+.form-wrap{
+  background-color: white;
+  margin:20px auto;
+}
+.contact-row{
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
 
-  clear:both;
+}
+.form2{
+padding: 20px;
+}
+.labelone{
+  margin-top: 10px;
+  display:block;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.inputone{
+  width:250px;
+  margin:5px;
+}
+.comments{
+  width:250px;
+  margin: 5px;
+  border: none;
+
+}
+fieldset{
+  border: none;
 }
 
 
-
-.footer {
-background-color: navy;
+.btn{
+  width:125px;
+  float:right;
+  background-color: red;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
 }
