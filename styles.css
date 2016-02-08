@@ -2,11 +2,30 @@ body {
   background-image: url('image/bg.jpg');
 }
 
-#wrap{
-margin-left: 20%;
-margin-right: 20%;
+.wrap {
+  width: 960px;
+ height: auto;
+ overflow: auto;
+ padding: 10px;
+}
+.header{
+  width:100%;
+  height:100px;
+background-color: white;
+}
+.subscribe{
+  margin: 15px 15px 15px 15px;
+  padding-right: 50px;
+  color: red;
 }
 
+.social ul li{
+float: right;
+padding 5px;
+
+
+
+}
 .rightnav{
 background-color: pink;
 width:40px;
@@ -18,6 +37,7 @@ text-align: right;
 .centernav{
 background-color: red;
 border:5px solid black;
+margin:10px;
 }
 .centernav ul{
   list-style: none;
